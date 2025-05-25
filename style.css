@@ -64,3 +64,18 @@ body{
 .add-task:hover{
     background-color: #96650f;
 }
+
+
+.card{
+    background-color: #e1d89f;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    color: black;
+    cursor: grab;
+    transition: all 0.3s ease-in;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
